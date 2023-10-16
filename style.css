@@ -22,16 +22,18 @@ footer{
     width: 101vw;
     text-align: center;
     padding: 5px;
-    /* background-color: black; */
+
     position: fixed;
     bottom: 0; 
     font-size: larger;
     text-align: center;
-    /* display: flex;
-    justify-content: center; */
 }
 
 @media only screen and  (max-width: 838px) {
+    body{
+        height: 95vh;
+        width: 99vw;
+    }
     img{
         width: 70%;
     }
