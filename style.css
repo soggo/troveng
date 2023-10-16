@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+  background-color: #f9f1f4
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    width: 99vw;
+    font-family:sans-serif;
+}
+img{
+    width: 32%;
+    height: 60%;
+}
+footer{
+    width: 101vw;
+    text-align: center;
+    padding: 5px;
+    /* background-color: black; */
+    position: fixed;
+    bottom: 0; 
+    font-size: larger;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+@media only screen and  (max-width: 838px) {
+    img{
+        width: 70%;
+    }
+}
